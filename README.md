@@ -14,6 +14,11 @@ source .venv/bin/activate
 uv pip install pandas sqlalchemy psycopg2-binary python-dotenv
 ```
 
+Ensure you have a .env file in the project with the connection string 
+```
+DB_URL=postgresql://postgres:password@127.0.0.1:55432/test_db
+```
+
 ### 🐘 Start PostgreSQL via Docker
 
 ```bash
