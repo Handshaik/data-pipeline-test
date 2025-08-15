@@ -13,11 +13,12 @@ test_db_connection(DB_URL)
 # Run the data pipeline
 df = extract("data/test_data.csv")
 transformed = transform(df)
-load(transformed)
+load(transformed, "user_actions")
 
 # Check the ETL result in the database 
-check_result()  
+check_result("user_actions")  
+ 
+# TODO: Implement a meterialised view(s) or summary table(s) in the database to support the 
+# customer sucess and finance teams queries of user activity and credits over days, weeks and months.
 
-# Creaete a summary table in the database
-#TODO: Implement summary data and table creation logic
-#TODO: check the results stored in the summary table
+# TODO: check the results stored in the new db schema

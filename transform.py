@@ -2,9 +2,6 @@ from config import TABLE_NAME
 
 def transform(df):
 
-#TODO: Implement the transformation logic
-#TODO: Add error handling 
-
     print("Transforming data...")
 
     # Drop rows with missing essential fields
