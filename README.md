@@ -107,8 +107,8 @@ Transforming data...
 
 ## The Promblem
 
-Our system tracks the `credits` a user has used when they perform certain action in the platform.
-Unfortunatley somone gave our CTO access to the logs and the 2024 Q4 logs have "disappeared" - and a log of actions has been cobbled
+Our system tracks the `credits` a user has used when they perform certain actions in the platform.
+Unfortunatley somone gave our CTO access to the logs and the 2024 Q4 logs have "disappeared" 🤨 - and a log of actions has been cobbled
 together from various other places - leaving us with a messy cvs of user actions to sort out before we save them to our database.
 
 **Our customer sucess team really want to know who is using the system, for what and when.**
